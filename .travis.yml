@@ -2,6 +2,8 @@ language: node_js
 node_js:
   - "stable"
 branches:
+  only:
+    - master
 script:
   - npm run lint
   - npm test
